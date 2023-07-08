@@ -1,0 +1,364 @@
+video#de-fondo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.menu li:hover > ul.show {
+    display: block;
+}
+
+main.contenedor {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#menu-gal:checked~.menu-galeria {
+    transform: initial;
+    -webkit-transform: initial;
+    -moz-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+}
+
+#menu-gal {
+    display: none;
+}
+
+main .icon-menu {
+    float: right;
+    width: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 20;
+    position: fixed;
+    top: 45%;
+    color:rgb(98, 9, 182);
+}
+
+.menu-nav{
+    width: 98%;
+    font-size: 16px;
+    vertical-align: top;
+    margin-top: 60px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+.lugares {
+    display:block;
+    width: 85%;
+    height: 100%;
+    margin-left: 15%;
+    font-size: 16px;
+}
+
+.menu-galeria {
+    position: absolute;
+    display: list-item;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 12%;
+    background-image: linear-gradient(180deg, rgb(109, 3, 102, 0.9), rgba(8, 3, 109, 0.9));
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    transition: all 0.5s;
+    overflow-y: scroll;
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
+}
+
+.menu-galeria::-webkit-scrollbar {
+    display:none;
+  }
+
+.provincia {
+    margin-left: 5%;
+}
+.lugar {
+    margin-left: 10%;
+}
+.menu-galeria button {
+    font-size: 175%;
+    text-decoration: none;
+    color: white;
+    font-weight:bolder;
+    text-shadow: 1.2px 1.2px 1.2px black;
+    font-family: 'Alkatra', cursive;
+    font-style:oblique;
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.pais button {
+    font-size: 145%;
+    text-decoration: none;
+    color: white;
+    font-weight:bolder;
+    text-shadow: 1.2px 1.2px 1.2px black;
+    font-family: 'Alkatra', cursive;
+    font-style:oblique;
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.menu-galeria li button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+ul.pais ul.provincia {
+    display: none;
+}
+
+ul.pais ul.provincia.show {
+    display: block;
+}
+
+ul.pais ul.provincia li.BuenosAires {
+    display: none;
+}
+
+ul.pais ul.provincia li.BuenosAires.show {
+    display: block;
+}
+
+ul.pais ul.provincia li.Salta {
+    display: none;
+}
+
+ul.pais ul.provincia li.Salta.show {
+    display: block;
+}
+
+ul.pais ul.provincia li.Misiones {
+    display: none;
+}
+
+ul.pais ul.provincia li.Misiones.show {
+    display: block;
+}
+
+ul.pais ul.provincia li.RioNegro {
+    display: none;
+}
+
+ul.pais ul.provincia li.RioNegro.show {
+    display: block;
+}
+
+
+ul.pais li.Mundo {
+    display: none;
+}
+
+ul.pais li.Mundo.show {
+    display: block;
+}
+
+.menu-galeria li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.menu-galeria h2 {
+    font-weight:bolder;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Alkatra', cursive;
+    color: rgb(105, 102, 102);
+    font-style:oblique;
+    font-size: 170%;
+}
+
+.provincia li {
+    padding-left: 30px;
+}
+.provincia a {
+    text-decoration: none;
+    color: white;
+    font-weight:bolder;
+    text-shadow: 1.2px 1.2px 1.2px black;
+    font-family: 'Alkatra', cursive;
+    font-style:oblique;
+    font-size: 17px;
+}
+
+.Mundo a {
+    text-decoration: none;
+    color: white;
+    font-weight:bolder;
+    text-shadow: 1.2px 1.2px 1.2px black;
+    font-family: 'Alkatra', cursive;
+    font-style:oblique;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+.provincia li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.Mundo:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.lugares section {
+    padding-top: 70px;
+}
+
+.lugares div {
+    background-image: linear-gradient(180deg, rgb(109, 3, 102, 0.9), rgba(8, 3, 109, 0.9));
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 2px solid black;
+}
+
+.lugares .contenedor {
+    position: relative;
+    width: 100%;
+}
+
+img.galeria {
+    /* position: absolute; */
+    z-index: 2;
+    height: 80%;
+    width: 80%;
+    text-align: right;
+    margin-left: 16%;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    border: 2px solid black;
+}
+
+iframe.mapas {
+    /* float: right; */
+    width: 80%;
+    text-align: right;
+    margin-left: 16%;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    border: 2px solid black;
+    z-index: -1;
+}
+
+.lugares h2 {
+    text-align: right;
+    padding-top: 1%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    font-weight:bolder;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-style:oblique;
+    font-size: x-large;
+    margin-bottom: 10px;
+    font-family: 'Alkatra', cursive;
+}
+
+.lugares p {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    font-weight:bolder;
+    color: white;
+    text-shadow: 1.2px 1.2px 1.2px black;
+    font-style:oblique;
+    font-size:medium;
+    font-family: 'Alkatra', cursive;
+}
+
+@media (min-width: 600px) {
+    .icon-menu {
+        display: none;
+    }
+
+    .menu-nav{
+        display: inline-block;
+        position: relative;
+        width: 29%;
+        height: 100%;
+        font-size: 16px;
+        vertical-align: top;
+        margin-top: 60px;
+        margin-bottom: 50%;
+        z-index: 3;
+    }
+    
+    .lugares {
+        display: inline-block;
+        width: 69%;
+        height: 100%;
+        font-size: 16px;
+        vertical-align: top;
+        margin-left: 0;
+    }
+    
+    .menu-galeria {
+        position: fixed;
+        max-width: 25%;
+        max-height: 61%;
+        background-image: linear-gradient(180deg, rgb(109, 3, 102, 0.9), rgba(8, 3, 109, 0.9));
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        border: 2px solid black;
+        padding: 10px;
+        margin-top: 7%;
+        left: auto;
+        height: auto;
+        transform: initial;
+        -webkit-transform: initial;
+        -moz-transform: initial;
+        -ms-transform: initial;
+        -o-transform: initial;
+}
+    main.contenedor {
+        max-width: 1000px;
+        margin: 0 auto;
+        font-size: 0;
+    }
+    .menu-galeria h2 {
+        margin-top: 0;
+    }
+}

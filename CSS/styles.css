@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url(fontello.css);
+@import url(menu.css);
+@import url(banner.css);
+@import url(contacto.css);
+@import url(info.css);
+@import url(galeria.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+header .contenedor {
+    display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 1.563em;
+}
+
+#bienvenidos {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#bienvenidos h2 {
+    font-weight: bolder;
+    font-size: 1.875em;
+    margin-bottom: 1.25em;
+}
+
+#bienvenidos p {
+    line-height: 1.875em;
+}
+
+footer {
+    background: rgba(51, 51, 51, 0.9);
+}
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 0.5em;
+    color: white;
+    padding-top: 1.1em;
+}
+
+.copy {
+    font-size: 1.25em;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.sociales a {
+    text-decoration: none;
+    color: white;
+}
+
+.sociales a img {
+    width: 1.1em;
+}
+
+@media (min-width: 768px) {
+    .sociales {
+        width: auto;
+    }
+    footer .contenedor {
+        justify-content: space-between;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .contenedor {
+        width: 56.25em;
+    }
+}
