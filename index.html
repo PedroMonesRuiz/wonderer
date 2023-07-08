@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="imagenes/icon-viajes.png" sizes="32x32" type="image/png">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <title>WONDERER TRAVEL</title>
+</head>
+<body>
+    <header>
+        <nav class="barra">
+            <div class="contenedor">
+                <h1>WONDERER</h1>
+                <label class="icon-menu" for="menu-bar"></label>
+                <input type="checkbox" id="menu-bar">
+                    <nav class="menu">
+                        <li><a href="index.html">Acerca</a></li>
+                        <div class="separador"></div>
+                        <li><a href="">Servicios</a></li>
+                        <div class="separador"></div>
+                        <li><button class="menu-toggle">Galeria</button>
+                            <ul class="nav-galeria">
+                                <li class="nav-argentina"><button class="arg-toggle"><a>Argentina</a></button>
+                                    <ul>
+                                        <li><a href="galeria.html#abasto">Buenos Aires</a></li>
+                                        <li><a href="galeria.html#cafayate">Salta</a></li>
+                                        <li><a href="galeria.html#cataratas-del-iguazu">Misiones</a></li>
+                                        <li><a href="galeria.html#bariloche">Rio Negro</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="galeria.html#atenas">Mundo</a></li>
+                            </ul>
+                        </li>
+                        <div class="separador"></div>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </nav>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <div id="c-slider">
+                <div id="slider">
+                    <section><img src="imagenes/banner1a.jpg" alt=""></section>
+                    <section><img src="imagenes/banner2a.jpg" alt=""></section>
+                    <section><img src="imagenes/banner3a.jpg" alt=""></section>
+                </div>
+                <div id="btn-prev">&#60;</div>
+                <div id="btn-next">&#62;</div>
+            </div>
+        </section>
+        <section id="bienvenidos">
+            <div class="contenedor">
+                <h2>Escapate de LA RUTINA</h2>
+                <P>Un viaje de mil millas comienza con el primer paso. (Lao-tsé).</P>
+                <P>El mundo es un libro y aquellos que no viajan, solo leen una página. (San Agustín).</P>
+                <P>Viajar es un remanso para dolores e inquietudes porque aquieta la vida palpitante que a veces ahoga
+                    en incertidumbres y desdichas. (Janette Mujica).</P>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor">
+            <p class="copy">Wonderer Travel &copy; 2023</p>
+            <div class="sociales">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="imagenes/facebook-icon.png" alt=""></a>
+                <a href="https://twitter.com/?lang=es" target="_blank">
+                    <img src="imagenes/twitter-icon.png" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="imagenes/instagram-icon.png" alt=""></a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="imagenes/youtube-icon.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/slider.js"></script>
+    <script src="JS/menu-galeria.js"></script>
+</body>
+
+</html>

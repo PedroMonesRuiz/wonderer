@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1.0">
+    <link rel="icon" href="imagenes/icon-viajes.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>WONDERER TRAVEL</title>
+</head>
+
+<body>
+    <img id="de_fondo" src="imagenes/Buenos-aires-2-e1585704119889.jpg" alt="">
+    <header>
+        <nav class="barra">
+            <div class="contenedor">
+                <h1>WONDERER</h1>
+                <label class="icon-menu" for="menu-bar"></label>
+                <input type="checkbox" id="menu-bar">
+                    <nav class="menu">
+                        <li><a href="index.html">Acerca</a></li>
+                        <div class="separador"></div>
+                        <li><a href="">Servicios</a></li>
+                        <div class="separador"></div>
+                        <li><button class="menu-toggle">Galeria</button>
+                            <ul class="nav-galeria">
+                                <li class="nav-argentina"><button class="arg-toggle"><a>Argentina</a></button>
+                                    <ul>
+                                        <li><a href="galeria.html#abasto">Buenos Aires</a></li>
+                                        <li><a href="galeria.html#cafayate">Salta</a></li>
+                                        <li><a href="galeria.html#cataratas-del-iguazu">Misiones</a></li>
+                                        <li><a href="galeria.html#bariloche">Rio Negro</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="galeria.html#atenas">Mundo</a></li>
+                            </ul>
+                        </li>
+                        <div class="separador"></div>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </nav>
+            </div>
+        </nav>
+    </header>
+    <section id="contacto">
+        <form class="contact_form" action="enviar.php" method="post">
+            <ul>
+                <li>
+                    <h2>formulario enviado</h2>
+                </li>
+                <li>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Ingresa tu nombre" maxlength="30" required>
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="email@dominio.com" maxlength="40" required>
+                </li>
+                <li>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" cols="40" rows="6" maxlength="250"></textarea>
+                </li>
+                <li>
+                    <button class="submit" type="submit">Enviar</button>
+                </li>
+            </ul>
+        </form>
+    </section>
+    <footer class="contacto">
+        <div class="contenedor">
+            <p class="copy">Wonderer Travel &copy; 2023</p>
+            <div class="sociales">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="imagenes/facebook-icon.png" alt=""></a>
+                <a href="https://twitter.com/?lang=es" target="_blank">
+                    <img src="imagenes/twitter-icon.png" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="imagenes/instagram-icon.png" alt=""></a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="imagenes/youtube-icon.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/menu-galeria.js"></script>
+</body>
+
+</html>

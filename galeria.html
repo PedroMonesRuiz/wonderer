@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1.0">
+    <link rel="icon" href="imagenes/icon-viajes.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <title>WONDERER TRAVEL</title>
+</head>
+
+<body>
+    <nav class="barra">
+        <div class="contenedor">
+            <h1>WONDERER</h1>
+            <label class="icon-menu" for="menu-bar"></label>
+            <input type="checkbox" id="menu-bar">
+            <nav class="menu">
+                <li><a href="index.html">Acerca</a></li>
+                <div class="separador"></div>
+                <li><a href="">Servicios</a></li>
+                <div class="separador"></div>
+                <li><button class="menu-toggle">Galeria</button>
+                    <ul class="nav-galeria">
+                        <li class="nav-argentina"><button class="arg-toggle"><a>Argentina</a></button>
+                            <ul>
+                                <li><a href="galeria.html#abasto">Buenos Aires</a></li>
+                                <li><a href="galeria.html#cafayate">Salta</a></li>
+                                <li><a href="galeria.html#cataratas-del-iguazu">Misiones</a></li>
+                                <li><a href="galeria.html#bariloche">Rio Negro</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="galeria.html#atenas">Mundo</a></li>
+                    </ul>
+                </li>
+                <div class="separador"></div>
+                <li><a href="contacto.html">Contacto</a></li>
+            </nav>
+        </div>
+    </nav>
+    </header>
+    <main>
+        <video id="de-fondo" src="videos/estrellas.mp4" autoplay muted playsinline loop></video>
+        <div class="contenedor">
+            <section class="menu-nav">
+                <label class="icon-menu" for="menu-gal"></label>
+                <input type="checkbox" id="menu-gal">
+                <nav class="menu-galeria">
+                    <h2>Galeria de viajes</h2>
+                    <li><button class="pais-toggle">Argentina</button>
+                        <ul class="pais">
+                            <ul class="provincia"><button class="provincia-toggle">Buenos Aires</button>
+                                <li class="BuenosAires"><a href="#abasto">Abasto</a></li>
+                                <li class="BuenosAires"><a href="#mar-del-plata">Mar del Plata</a></li>
+                                <li class="BuenosAires"><a href="#puerto-madero">Puerto Madero</a></li>
+                            </ul>
+                            <ul class="provincia"><button class="provincia-toggle">Salta</button>
+                                <li class="Salta"><a href="#cafayate">Cafayate</a></li>
+                                <li class="Salta"><a href="#dique-cabra-corral">Dique Cabra corral</a></li>
+                                <li class="Salta"><a href="#san-lorenzo">San Lorenzo</a></li>
+                            </ul>
+                            <ul class="provincia"><button class="provincia-toggle">Misiones</button>
+                                <li class="Misiones"><a href="#cataratas-del-iguazu">Cataratas del Iguazu</a></li>
+                                <li class="Misiones"><a href="#ruinas-de-san-ignacio">Ruinas de San Ignacio</a></li>
+                            </ul>
+                            <ul class="provincia"><button class="provincia-toggle">Rio Negro</button>
+                                <li class="RioNegro"><a href="#bariloche">Bariloche</a></li>
+                                <li class="RioNegro"><a href="#parque-nacional-nahuel-huapi">Parque Nacional Nahuel
+                                        Huapi</a></li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li><button class="pais-toggle">Mundo</button>
+                        <ul class="pais">
+                            <li class="Mundo"><a href="#atenas">Atenas</a></li>
+                        </ul>
+                    </li>
+                </nav>
+            </section>
+            <section class="lugares">
+                <section id="abasto">
+                    <div>
+                        <h2>Abasto - La Plata</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/abasto-la-plata.jpg" alt="Abasto - La Plata">
+                        </article>
+                        <p>Abasto es una localidad argentina ubicada en el partido de La Plata, provincia de Buenos
+                            Aires, a
+                            15 km al suroeste del centro de la ciudad. Debe su nombre a los mataderos que se encontraban
+                            allí y que proveían de carne a la capital provincial. Es conocida por sus festivales de doma
+                            y
+                            folklore en el Club Abastense, construido en 1901, y por su centro pintoresco con casas de
+                            principios del siglo XX, algunas pulperías que se conservan hasta hoy y una bella zona de
+                            quintas tradicionales. La localidad se destaca por la próspera industria de viveros y un
+                            autódromo donde se realizar pruebas y competiciones, en los últimos años Abasto es
+                            reconocido
+                            por ser hogar de la famosa mosaiquista Cora Grassetti, cuya quinta "La Esperanza" fue
+                            galardonada como Paseo de Interés Cultural por el Gobierno Provincial.</p>
+                    </div>
+                </section>
+                <section id="mar-del-plata">
+                    <div>
+                        <h2>Mar del Plata - Buenos Aires</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/mar-del-plata.jpg" alt="Mar del Plata">
+                        </article>
+                        <p>Mar del Plata es uno de los destinos turísticos más populares de Argentina, y no es difícil
+                            entender por qué. Ubicada en la costa del Atlántico, esta ciudad ofrece un impresionante
+                            paisaje natural compuesto por playas, acantilados y bosques. Además, cuenta con una gran
+                            cantidad de atracciones turísticas para todos los gustos: museos, teatros, centros
+                            comerciales, restaurantes y vida nocturna, entre otros. Desde la emblemática Torre Tanque
+                            hasta el pintoresco barrio de los pescadores en el puerto, Mar del Plata tiene algo para
+                            todos los visitantes. ¡No pierdas la oportunidad de disfrutar de esta ciudad mágica en tus
+                            próximas vacaciones!</p>
+                    </div>
+                </section>
+                <section id="puerto-madero">
+                    <div>
+                        <h2>Puerto Madero - Buenos Aires</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/Puerto-madero.jpg" alt="Puerto Madero">
+                        </article>
+                        <p>Puerto Madero es uno de los barrios más modernos y vibrantes de Buenos Aires, Argentina.
+                            Antiguamente un puerto abandonado, fue transformado en la década de 1990 en un distrito de
+                            lujo que combina arquitectura histórica y moderna. Con su amplia variedad de restaurantes,
+                            bares, tiendas y museos, Puerto Madero es el lugar perfecto para disfrutar de la gastronomía
+                            y la vida nocturna de Buenos Aires. Además, sus espacios verdes, como el Parque Micaela
+                            Bastidas y la Reserva Ecológica, ofrecen un escape del ajetreo de la ciudad y la oportunidad
+                            de disfrutar de la naturaleza. Los visitantes también pueden pasear por el Puente de la
+                            Mujer, uno de los iconos de la ciudad, y disfrutar de las vistas panorámicas del Río de la
+                            Plata. Puerto Madero es sin duda uno de los destinos más populares de Buenos Aires, con algo
+                            para todos los gustos.</p>
+                    </div>
+                </section>
+                <section id="cafayate">
+                    <div>
+                        <h2>Cafayate - Salta</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/cafayate-salta.jpg" alt="Salta-Cafayate">
+                        </article>
+                        <p>Cafayate es un tesoro escondido en la provincia de Salta, Argentina. Conocido por sus bodegas
+                            y sus vinos de alta calidad, este destino ofrece una experiencia única para los amantes del
+                            vino y la naturaleza. Rodeado de montañas y paisajes deslumbrantes, Cafayate es el hogar de
+                            una gran variedad de uvas que se transforman en vinos premiados y reconocidos en todo el
+                            mundo. Además de visitar las bodegas y degustar sus vinos, los visitantes pueden explorar la
+                            belleza natural del Valle de Calchaquí y sus famosas formaciones rocosas, como el Anfiteatro
+                            y Los Médanos. La ciudad cuenta con una arquitectura colonial bien preservada y un ambiente
+                            tranquilo y acogedor que invita a la relajación y al disfrute de la vida lenta.</p>
+                    </div>
+                </section>
+                <section id="dique-cabra-corral">
+                    <div>
+                        <h2>Dique Cabra Corral - Salta</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/dique-cabra-corral.jpg" alt="Dique Cabra Corral">
+                        </article>
+                        <p>El Dique Cabra Corral es uno de los atractivos turísticos más impresionantes de Salta,
+                            Argentina. Ubicado en el Río Juramento, a unos 70 km de la ciudad capital, este embalse
+                            ofrece una vista panorámica espectacular de las montañas y el paisaje natural circundante.
+                            Los visitantes pueden disfrutar de una amplia variedad de actividades, como pesca, deportes
+                            acuáticos, paseos en bote y avistamiento de aves. Además, el dique cuenta con una playa de
+                            arena y un camping con instalaciones para acampar y hacer picnics. Si buscas un lugar para
+                            desconectar de la rutina y disfrutar de la naturaleza en estado puro, el Dique Cabra Corral
+                            es una excelente opción.</p>
+                    </div>
+                </section>
+                <section id="san-lorenzo">
+                    <div>
+                        <h2>San Lorenzo - Salta</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/san-lorenzo.jpg" alt="San Lorenzo">
+                        </article>
+                        <p>San Lorenzo es uno de los pueblos más encantadores de Salta, Argentina. Ubicado a pocos
+                            kilómetros al norte de la ciudad capital, este pueblo colonial cuenta con una rica historia
+                            y un entorno natural impresionante. Los visitantes pueden disfrutar de su arquitectura
+                            colonial, que se refleja en sus casas, iglesias y calles empedradas. Además, San Lorenzo
+                            ofrece numerosas actividades al aire libre, como senderismo, paseos en bicicleta y
+                            avistamiento de aves. El Parque Nacional San Lorenzo es otro de los atractivos turísticos de
+                            la zona, con una gran variedad de flora y fauna autóctonas. Si buscas un lugar tranquilo
+                            para desconectar y disfrutar de la belleza natural, San Lorenzo es una excelente opción.</p>
+                    </div>
+                </section>
+                <section id="cataratas-del-iguazu">
+                    <div>
+                        <h2>Cataratas del Iguazu - Misiones</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/cataratas-del-iguazu.jpg" alt="Cataratas del Iguazu">
+                        </article>
+                        <p>Las Cataratas del Iguazú son una maravilla natural ubicada en la provincia de Misiones,
+                            Argentina. Con más de 270 saltos de agua, es una de las cataratas más impresionantes del
+                            mundo. Los visitantes pueden disfrutar de vistas espectaculares y sentir la fuerza del agua
+                            al caminar por los senderos y puentes que recorren el parque. Además, el parque ofrece
+                            numerosas actividades, como paseos en lancha, caminatas en la selva y avistamiento de aves.
+                            El Parque Nacional Iguazú, donde se encuentran las cataratas, es también el hogar de una
+                            gran variedad de animales y plantas autóctonas. Si buscas una experiencia única en contacto
+                            con la naturaleza, no puedes dejar de visitar las Cataratas del Iguazú.</p>
+                    </div>
+                </section>
+                <section id="ruinas-de-san-ignacio">
+                    <div>
+                        <h2>Ruinas de San Ignacio - Misiones</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/ruinas-de-san-ignacio.png" alt="Ruinas de San Ignacio">
+                        </article>
+                        <p>Las Ruinas de San Ignacio son uno de los tesoros históricos y culturales más importantes de
+                            la provincia de Misiones, Argentina. Este sitio arqueológico es una muestra del patrimonio
+                            de la Compañía de Jesús en América del Sur, y se encuentra ubicado a 60 km de la ciudad de
+                            Posadas. Las ruinas están compuestas por numerosas estructuras, como iglesias, viviendas y
+                            plazas, que datan del siglo XVII. Los visitantes pueden explorar el sitio y descubrir la
+                            historia detrás de cada estructura, y además disfrutar de espectáculos de luces y sonidos en
+                            la noche. Si buscas conocer más sobre la historia de la región, no puedes dejar de visitar
+                            las Ruinas de San Ignacio.</p>
+                    </div>
+                </section>
+                <section id="bariloche">
+                    <div>
+                        <h2>Bariloche - Rio Negro</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/bariloche.jpg" alt="Bariloche">
+                        </article>
+                        <p>Bariloche es uno de los destinos de invierno más populares de la Argentina, ubicado en la
+                            provincia de Río Negro. Rodeada de montañas cubiertas de nieve, Bariloche es famosa por sus
+                            excelentes pistas de esquí y snowboard. Cerro Catedral, la montaña más alta de la región,
+                            ofrece una variedad de opciones para esquiadores de todos los niveles, desde principiantes
+                            hasta expertos. Además, la ciudad cuenta con una amplia oferta de alojamiento, desde
+                            acogedores lodges hasta lujosos hoteles, que ofrecen actividades como spa y restaurantes
+                            gourmet. Y para aquellos que quieran explorar más allá de las pistas, Bariloche también
+                            ofrece actividades como raquetas de nieve, motos de nieve, patinaje sobre hielo y mucho más.
+                            Si buscas una experiencia de invierno en contacto con la naturaleza, Bariloche es el destino
+                            perfecto para ti.</p>
+                    </div>
+                </section>
+                <section id="parque-nacional-nahuel-huapi">
+                    <div>
+                        <h2>Parque Nacional Nahuel Huapi - Rio Negro</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/parque-nacional-nahuel-huapi.jpg" alt="Parque Nacional Nahuel Huapi">
+                        </article>
+                        <p>El Parque Nacional Nahuel Huapi es uno de los tesoros naturales más importantes de la
+                            provincia de Río Negro, Argentina. Con más de 700.000 hectáreas de extensión, este parque es
+                            hogar de una impresionante variedad de flora y fauna, lagos cristalinos, montañas y
+                            glaciares. Los visitantes pueden disfrutar de una gran variedad de actividades al aire
+                            libre, como senderismo, pesca, kayak, esquí, snowboard y mucho más. Además, el parque cuenta
+                            con numerosas áreas para acampar y refugios para alojarse durante la visita. Si buscas una
+                            experiencia única en contacto con la naturaleza, el Parque Nacional Nahuel Huapi es el
+                            destino ideal para ti.</p>
+                    </div>
+                </section>
+                <section id="atenas">
+                    <div>
+                        <h2>Atenas - Grecia</h2>
+                        <article class="contenedor">
+                            <img class="galeria" src="imagenes/atenas-grecia.jpg" alt="Atenas - Grecia">
+                        </article>
+                        <p>Atenas es una ciudad con un rico patrimonio histórico y cultural. Cuna de la civilización
+                            occidental, ofrece a los visitantes una experiencia inolvidable con monumentos como el
+                            Partenón, el Templo de Zeus y la Acrópolis, que son testigos silenciosos de la grandeza de
+                            la antigua Grecia. Pero Atenas no es solo un destino para los amantes de la historia,
+                            también es un lugar lleno de vida y energía. Las calles estrechas y laberínticas del barrio
+                            de Plaka invitan a pasear y descubrir sus tiendas, restaurantes y bares con música en vivo.
+                            Además, la ciudad cuenta con una amplia oferta cultural y eventos como el Festival de Atenas
+                            y Epidaurus o el Carnaval de Atenas, que atraen a visitantes de todo el mundo.</p>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="contenedor">
+            <p class="copy">Wonderer Travel &copy; 2023</p>
+            <div class="sociales">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="imagenes/facebook-icon.png" alt=""></a>
+                <a href="https://twitter.com/?lang=es" target="_blank">
+                    <img src="imagenes/twitter-icon.png" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="imagenes/instagram-icon.png" alt=""></a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="imagenes/youtube-icon.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/menu-galeria.js"></script>
+</body>
+
+</html>
